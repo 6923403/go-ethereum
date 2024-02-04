@@ -1,7 +1,9 @@
 go mod init github.com/yourusername/go-ethereum
 git checkout v1.9.25
+go get github.com/ethereum/go-ethereum/v1.9.25
 go mod tidy
 make all
+
 
 ---
 

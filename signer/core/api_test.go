@@ -27,19 +27,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/6923403/go-ethereum/accounts"
+	"github.com/6923403/go-ethereum/accounts/keystore"
+	"github.com/6923403/go-ethereum/common"
+	"github.com/6923403/go-ethereum/common/hexutil"
+	"github.com/6923403/go-ethereum/core/types"
+	"github.com/6923403/go-ethereum/internal/ethapi"
+	"github.com/6923403/go-ethereum/rlp"
+	"github.com/6923403/go-ethereum/signer/core"
+	"github.com/6923403/go-ethereum/signer/fourbyte"
+	"github.com/6923403/go-ethereum/signer/storage"
 )
 
-//Used for testing
+// Used for testing
 type headlessUi struct {
 	approveCh chan string // to send approve/deny
 	inputCh   chan string // to send password

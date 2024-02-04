@@ -33,11 +33,11 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/6923403/go-ethereum/consensus"
+	"github.com/6923403/go-ethereum/log"
+	"github.com/6923403/go-ethereum/metrics"
+	"github.com/6923403/go-ethereum/rpc"
 	"github.com/edsrzf/mmap-go"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

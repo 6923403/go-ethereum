@@ -23,9 +23,9 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/6923403/go-ethereum/common"
+	"github.com/6923403/go-ethereum/core/rawdb"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
 )
 
 // TestAccountIteratorBasics tests some simple single-layer(diff and disk) iteration

@@ -17,9 +17,9 @@
 package les
 
 import (
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/6923403/go-ethereum/p2p/dnsdisc"
+	"github.com/6923403/go-ethereum/p2p/enode"
+	"github.com/6923403/go-ethereum/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

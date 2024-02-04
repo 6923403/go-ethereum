@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/6923403/go-ethereum/eth/downloader"
+	"github.com/6923403/go-ethereum/p2p"
+	"github.com/6923403/go-ethereum/p2p/enode"
 )
 
 func TestFastSyncDisabling63(t *testing.T) { testFastSyncDisabling(t, 63) }

@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build none
 // +build none
 
 // This file contains a miner stress test based on the Clique consensus engine.
@@ -28,20 +29,20 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/6923403/go-ethereum/accounts/keystore"
+	"github.com/6923403/go-ethereum/common"
+	"github.com/6923403/go-ethereum/common/fdlimit"
+	"github.com/6923403/go-ethereum/core"
+	"github.com/6923403/go-ethereum/core/types"
+	"github.com/6923403/go-ethereum/crypto"
+	"github.com/6923403/go-ethereum/eth"
+	"github.com/6923403/go-ethereum/eth/downloader"
+	"github.com/6923403/go-ethereum/log"
+	"github.com/6923403/go-ethereum/miner"
+	"github.com/6923403/go-ethereum/node"
+	"github.com/6923403/go-ethereum/p2p"
+	"github.com/6923403/go-ethereum/p2p/enode"
+	"github.com/6923403/go-ethereum/params"
 )
 
 func main() {

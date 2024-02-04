@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	lpc "github.com/ethereum/go-ethereum/les/lespay/client"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/6923403/go-ethereum/common/mclock"
+	"github.com/6923403/go-ethereum/ethdb"
+	"github.com/6923403/go-ethereum/ethdb/memorydb"
+	lpc "github.com/6923403/go-ethereum/les/lespay/client"
+	"github.com/6923403/go-ethereum/p2p"
+	"github.com/6923403/go-ethereum/p2p/enode"
+	"github.com/6923403/go-ethereum/p2p/enr"
 )
 
 const (

@@ -24,25 +24,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/6923403/go-ethereum"
+	"github.com/6923403/go-ethereum/accounts/abi"
+	"github.com/6923403/go-ethereum/accounts/abi/bind"
+	"github.com/6923403/go-ethereum/common"
+	"github.com/6923403/go-ethereum/common/hexutil"
+	"github.com/6923403/go-ethereum/common/math"
+	"github.com/6923403/go-ethereum/consensus/ethash"
+	"github.com/6923403/go-ethereum/core"
+	"github.com/6923403/go-ethereum/core/bloombits"
+	"github.com/6923403/go-ethereum/core/rawdb"
+	"github.com/6923403/go-ethereum/core/state"
+	"github.com/6923403/go-ethereum/core/types"
+	"github.com/6923403/go-ethereum/core/vm"
+	"github.com/6923403/go-ethereum/eth/filters"
+	"github.com/6923403/go-ethereum/ethdb"
+	"github.com/6923403/go-ethereum/event"
+	"github.com/6923403/go-ethereum/log"
+	"github.com/6923403/go-ethereum/params"
+	"github.com/6923403/go-ethereum/rpc"
 )
 
 // This nil assignment ensures at compile time that SimulatedBackend implements bind.ContractBackend.
@@ -367,7 +367,7 @@ type revertError struct {
 }
 
 // ErrorCode returns the JSON error code for a revert.
-// See: https://github.com/ethereum/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
+// See: https://github.com/6923403/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
 func (e *revertError) ErrorCode() int {
 	return 3
 }

@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/6923403/go-ethereum"
+	"github.com/6923403/go-ethereum/accounts"
+	"github.com/6923403/go-ethereum/common"
+	"github.com/6923403/go-ethereum/core/types"
+	"github.com/6923403/go-ethereum/crypto"
+	"github.com/6923403/go-ethereum/log"
 	"github.com/karalabe/usb"
 )
 

@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/6923403/go-ethereum/crypto"
+	"github.com/6923403/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

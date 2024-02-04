@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be found
 // in the LICENSE file.
 
+//go:build gofuzz
 // +build gofuzz
 
 package bn256
@@ -12,8 +13,8 @@ import (
 	"io"
 	"math/big"
 
-	cloudflare "github.com/ethereum/go-ethereum/crypto/bn256/cloudflare"
-	google "github.com/ethereum/go-ethereum/crypto/bn256/google"
+	cloudflare "github.com/6923403/go-ethereum/crypto/bn256/cloudflare"
+	google "github.com/6923403/go-ethereum/crypto/bn256/google"
 )
 
 func getG1Points(input io.Reader) (*cloudflare.G1, *google.G1) {

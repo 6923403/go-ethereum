@@ -23,11 +23,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	lpc "github.com/ethereum/go-ethereum/les/lespay/client"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/6923403/go-ethereum/common"
+	"github.com/6923403/go-ethereum/crypto"
+	lpc "github.com/6923403/go-ethereum/les/lespay/client"
+	"github.com/6923403/go-ethereum/p2p/enode"
+	"github.com/6923403/go-ethereum/rlp"
 )
 
 // Constants to match up protocol versions and messages

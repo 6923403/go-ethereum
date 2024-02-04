@@ -21,13 +21,13 @@ import (
 	"net"
 	"time"
 
+	"github.com/6923403/go-ethereum/core/types"
+	"github.com/6923403/go-ethereum/crypto"
+	"github.com/6923403/go-ethereum/internal/utesting"
+	"github.com/6923403/go-ethereum/p2p"
+	"github.com/6923403/go-ethereum/p2p/enode"
+	"github.com/6923403/go-ethereum/p2p/rlpx"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
 	"github.com/stretchr/testify/assert"
 )
 
