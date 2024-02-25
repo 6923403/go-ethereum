@@ -24,19 +24,19 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/common/hexutil"
-	"github.com/6923403/go-ethereum/common/math"
-	"github.com/6923403/go-ethereum/consensus"
-	"github.com/6923403/go-ethereum/consensus/ethash"
-	"github.com/6923403/go-ethereum/core"
-	"github.com/6923403/go-ethereum/core/rawdb"
-	"github.com/6923403/go-ethereum/core/state"
-	"github.com/6923403/go-ethereum/core/state/snapshot"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/core/vm"
-	"github.com/6923403/go-ethereum/params"
-	"github.com/6923403/go-ethereum/rlp"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/common/hexutil"
+	"github.com/vcvvvc/go-ethereum/common/math"
+	"github.com/vcvvvc/go-ethereum/consensus"
+	"github.com/vcvvvc/go-ethereum/consensus/ethash"
+	"github.com/vcvvvc/go-ethereum/core"
+	"github.com/vcvvvc/go-ethereum/core/rawdb"
+	"github.com/vcvvvc/go-ethereum/core/state"
+	"github.com/vcvvvc/go-ethereum/core/state/snapshot"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/core/vm"
+	"github.com/vcvvvc/go-ethereum/params"
+	"github.com/vcvvvc/go-ethereum/rlp"
 )
 
 // A BlockTest checks handling of entire blocks.
@@ -171,7 +171,7 @@ func (t *BlockTest) genesis(config *params.ChainConfig) *core.Genesis {
 }
 
 /*
-See https://github.com/6923403/tests/wiki/Blockchain-Tests-II
+See https://github.com/vcvvvc/tests/wiki/Blockchain-Tests-II
 
 	Whether a block is valid or not is a bit subtle, it's defined by presence of
 	blockHeader, transactions and uncleHeaders fields. If they are missing, the block is

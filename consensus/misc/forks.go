@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/params"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

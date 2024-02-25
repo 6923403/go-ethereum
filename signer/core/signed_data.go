@@ -30,14 +30,14 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/6923403/go-ethereum/accounts"
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/common/hexutil"
-	"github.com/6923403/go-ethereum/common/math"
-	"github.com/6923403/go-ethereum/consensus/clique"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/rlp"
+	"github.com/vcvvvc/go-ethereum/accounts"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/common/hexutil"
+	"github.com/vcvvvc/go-ethereum/common/math"
+	"github.com/vcvvvc/go-ethereum/consensus/clique"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/rlp"
 )
 
 type SigFormat struct {
@@ -651,7 +651,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/6923403/go-ethereum/wiki/Management-APIs#personal_ecRecover
+	// https://github.com/vcvvvc/go-ethereum/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")
 	}

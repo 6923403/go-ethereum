@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/6923403/go-ethereum/p2p/enode"
+	"github.com/vcvvvc/go-ethereum/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

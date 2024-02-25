@@ -23,10 +23,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/p2p/discover/v4wire"
-	"github.com/6923403/go-ethereum/p2p/enode"
-	"github.com/6923403/go-ethereum/p2p/enr"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/p2p/discover/v4wire"
+	"github.com/vcvvvc/go-ethereum/p2p/enode"
+	"github.com/vcvvvc/go-ethereum/p2p/enr"
 )
 
 func TestUDPv4_Lookup(t *testing.T) {

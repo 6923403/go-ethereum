@@ -29,9 +29,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/6923403/go-ethereum/log"
-	"github.com/6923403/go-ethereum/rpc"
 	"github.com/rs/cors"
+	"github.com/vcvvvc/go-ethereum/log"
+	"github.com/vcvvvc/go-ethereum/rpc"
 )
 
 // httpConfig is the JSON-RPC/HTTP configuration.

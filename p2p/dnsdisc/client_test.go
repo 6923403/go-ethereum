@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/6923403/go-ethereum/common/mclock"
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/internal/testlog"
-	"github.com/6923403/go-ethereum/log"
-	"github.com/6923403/go-ethereum/p2p/enode"
-	"github.com/6923403/go-ethereum/p2p/enr"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/vcvvvc/go-ethereum/common/mclock"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/internal/testlog"
+	"github.com/vcvvvc/go-ethereum/log"
+	"github.com/vcvvvc/go-ethereum/p2p/enode"
+	"github.com/vcvvvc/go-ethereum/p2p/enr"
 )
 
 const (

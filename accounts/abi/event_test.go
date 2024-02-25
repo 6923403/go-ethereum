@@ -25,10 +25,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/crypto"
 )
 
 var jsonEventTransfer = []byte(`{

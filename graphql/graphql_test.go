@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/consensus/ethash"
-	"github.com/6923403/go-ethereum/core"
-	"github.com/6923403/go-ethereum/eth"
-	"github.com/6923403/go-ethereum/miner"
-	"github.com/6923403/go-ethereum/node"
 	"github.com/stretchr/testify/assert"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/consensus/ethash"
+	"github.com/vcvvvc/go-ethereum/core"
+	"github.com/vcvvvc/go-ethereum/eth"
+	"github.com/vcvvvc/go-ethereum/miner"
+	"github.com/vcvvvc/go-ethereum/node"
 )
 
 func TestBuildSchema(t *testing.T) {

@@ -22,12 +22,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core/rawdb"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/eth/downloader"
-	"github.com/6923403/go-ethereum/log"
-	"github.com/6923403/go-ethereum/p2p/enode"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core/rawdb"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/eth/downloader"
+	"github.com/vcvvvc/go-ethereum/log"
+	"github.com/vcvvvc/go-ethereum/p2p/enode"
 )
 
 const (

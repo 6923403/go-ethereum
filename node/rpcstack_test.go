@@ -22,11 +22,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/6923403/go-ethereum/internal/testlog"
-	"github.com/6923403/go-ethereum/log"
-	"github.com/6923403/go-ethereum/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
+	"github.com/vcvvvc/go-ethereum/internal/testlog"
+	"github.com/vcvvvc/go-ethereum/log"
+	"github.com/vcvvvc/go-ethereum/rpc"
 )
 
 // TestCorsHandler makes sure CORS are properly handled on the http server.

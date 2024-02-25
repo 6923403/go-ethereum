@@ -17,10 +17,10 @@
 package vm
 
 import (
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/params"
 	"golang.org/x/crypto/sha3"
 )
 

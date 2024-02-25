@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/6923403/go-ethereum/accounts"
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/event"
+	"github.com/vcvvvc/go-ethereum/accounts"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/event"
 )
 
 var testSigData = make([]byte, 32)

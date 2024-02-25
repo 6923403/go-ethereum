@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/6923403/go-ethereum/common"
 	"github.com/dop251/goja"
+	"github.com/vcvvvc/go-ethereum/common"
 )
 
 // JSRE is a JS runtime environment embedding the goja interpreter.

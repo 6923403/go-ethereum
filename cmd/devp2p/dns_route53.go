@@ -23,12 +23,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/6923403/go-ethereum/log"
-	"github.com/6923403/go-ethereum/p2p/dnsdisc"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/route53"
+	"github.com/vcvvvc/go-ethereum/log"
+	"github.com/vcvvvc/go-ethereum/p2p/dnsdisc"
 	"gopkg.in/urfave/cli.v1"
 )
 

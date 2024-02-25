@@ -17,7 +17,7 @@
 // Package keystore implements encrypted storage of secp256k1 private keys.
 //
 // Keys are stored as encrypted JSON files according to the Web3 Secret Storage specification.
-// See https://github.com/6923403/wiki/wiki/Web3-Secret-Storage-Definition for more information.
+// See https://github.com/vcvvvc/wiki/wiki/Web3-Secret-Storage-Definition for more information.
 package keystore
 
 import (
@@ -32,11 +32,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/6923403/go-ethereum/accounts"
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/event"
+	"github.com/vcvvvc/go-ethereum/accounts"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/event"
 )
 
 var (

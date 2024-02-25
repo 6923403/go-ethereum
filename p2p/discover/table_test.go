@@ -27,10 +27,10 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/p2p/enode"
-	"github.com/6923403/go-ethereum/p2p/enr"
-	"github.com/6923403/go-ethereum/p2p/netutil"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/p2p/enode"
+	"github.com/vcvvvc/go-ethereum/p2p/enr"
+	"github.com/vcvvvc/go-ethereum/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/6923403/go-ethereum/eth"
-	"github.com/6923403/go-ethereum/node"
+	"github.com/vcvvvc/go-ethereum/eth"
+	"github.com/vcvvvc/go-ethereum/node"
 	"gopkg.in/urfave/cli.v1"
 )
 

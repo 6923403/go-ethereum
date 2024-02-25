@@ -20,12 +20,12 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core/rawdb"
-	"github.com/6923403/go-ethereum/ethdb"
-	"github.com/6923403/go-ethereum/rlp"
-	"github.com/6923403/go-ethereum/trie"
 	"github.com/VictoriaMetrics/fastcache"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core/rawdb"
+	"github.com/vcvvvc/go-ethereum/ethdb"
+	"github.com/vcvvvc/go-ethereum/rlp"
+	"github.com/vcvvvc/go-ethereum/trie"
 )
 
 // diskLayer is a low level persistent snapshot built on top of a key-value store.

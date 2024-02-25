@@ -22,12 +22,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/ethdb"
-	"github.com/6923403/go-ethereum/log"
-	"github.com/6923403/go-ethereum/params"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/ethdb"
+	"github.com/vcvvvc/go-ethereum/log"
+	"github.com/vcvvvc/go-ethereum/params"
 )
 
 // Vote represents a single vote that an authorized signer made to modify the

@@ -21,14 +21,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/internal/utesting"
-	"github.com/6923403/go-ethereum/p2p"
-	"github.com/6923403/go-ethereum/p2p/enode"
-	"github.com/6923403/go-ethereum/p2p/rlpx"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/internal/utesting"
+	"github.com/vcvvvc/go-ethereum/p2p"
+	"github.com/vcvvvc/go-ethereum/p2p/enode"
+	"github.com/vcvvvc/go-ethereum/p2p/rlpx"
 )
 
 var pretty = spew.ConfigState{

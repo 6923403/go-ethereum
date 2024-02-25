@@ -21,12 +21,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core"
-	"github.com/6923403/go-ethereum/core/forkid"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/event"
-	"github.com/6923403/go-ethereum/rlp"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core"
+	"github.com/vcvvvc/go-ethereum/core/forkid"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/event"
+	"github.com/vcvvvc/go-ethereum/rlp"
 )
 
 // Constants to match up protocol versions and messages

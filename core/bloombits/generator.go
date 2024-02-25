@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/6923403/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/core/types"
 )
 
 var (

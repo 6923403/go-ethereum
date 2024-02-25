@@ -17,8 +17,8 @@
 package types
 
 import (
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/rlp"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/rlp"
 )
 
 type DerivableList interface {

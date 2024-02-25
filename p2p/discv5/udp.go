@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/log"
-	"github.com/6923403/go-ethereum/p2p/netutil"
-	"github.com/6923403/go-ethereum/rlp"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/log"
+	"github.com/vcvvvc/go-ethereum/p2p/netutil"
+	"github.com/vcvvvc/go-ethereum/rlp"
 )
 
 const Version = 4

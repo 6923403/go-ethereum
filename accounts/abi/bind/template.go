@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/6923403/go-ethereum/accounts/abi"
+import "github.com/vcvvvc/go-ethereum/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -91,12 +91,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/6923403/go-ethereum"
-	"github.com/6923403/go-ethereum/accounts/abi"
-	"github.com/6923403/go-ethereum/accounts/abi/bind"
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/event"
+	ethereum "github.com/vcvvvc/go-ethereum"
+	"github.com/vcvvvc/go-ethereum/accounts/abi"
+	"github.com/vcvvvc/go-ethereum/accounts/abi/bind"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

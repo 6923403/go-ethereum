@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/6923403/go-ethereum/light"
+	"github.com/vcvvvc/go-ethereum/light"
 )
 
 var (

@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/6923403/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

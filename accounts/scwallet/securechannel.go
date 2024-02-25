@@ -25,8 +25,8 @@ import (
 	"crypto/sha512"
 	"fmt"
 
-	"github.com/6923403/go-ethereum/crypto"
 	pcsc "github.com/gballet/go-libpcsclite"
+	"github.com/vcvvvc/go-ethereum/crypto"
 	"github.com/wsddn/go-ecdh"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/text/unicode/norm"

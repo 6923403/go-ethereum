@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/rlp"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/rlp"
 )
 
 // The values in those tests are from the Transaction Tests
-// at github.com/6923403/tests.
+// at github.com/vcvvvc/tests.
 var (
 	emptyTx = NewTransaction(
 		0,

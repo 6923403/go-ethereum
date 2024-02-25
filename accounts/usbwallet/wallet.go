@@ -25,13 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/6923403/go-ethereum"
-	"github.com/6923403/go-ethereum/accounts"
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/crypto"
-	"github.com/6923403/go-ethereum/log"
 	"github.com/karalabe/usb"
+	"github.com/vcvvvc/go-ethereum/accounts"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/crypto"
+	"github.com/vcvvvc/go-ethereum/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

@@ -41,25 +41,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/6923403/go-ethereum/accounts"
-	"github.com/6923403/go-ethereum/accounts/keystore"
-	"github.com/6923403/go-ethereum/cmd/utils"
-	"github.com/6923403/go-ethereum/common"
-	"github.com/6923403/go-ethereum/core"
-	"github.com/6923403/go-ethereum/core/types"
-	"github.com/6923403/go-ethereum/eth"
-	"github.com/6923403/go-ethereum/eth/downloader"
-	"github.com/6923403/go-ethereum/ethclient"
-	"github.com/6923403/go-ethereum/ethstats"
-	"github.com/6923403/go-ethereum/les"
-	"github.com/6923403/go-ethereum/log"
-	"github.com/6923403/go-ethereum/node"
-	"github.com/6923403/go-ethereum/p2p"
-	"github.com/6923403/go-ethereum/p2p/discv5"
-	"github.com/6923403/go-ethereum/p2p/enode"
-	"github.com/6923403/go-ethereum/p2p/nat"
-	"github.com/6923403/go-ethereum/params"
 	"github.com/gorilla/websocket"
+	"github.com/vcvvvc/go-ethereum/accounts"
+	"github.com/vcvvvc/go-ethereum/accounts/keystore"
+	"github.com/vcvvvc/go-ethereum/cmd/utils"
+	"github.com/vcvvvc/go-ethereum/common"
+	"github.com/vcvvvc/go-ethereum/core"
+	"github.com/vcvvvc/go-ethereum/core/types"
+	"github.com/vcvvvc/go-ethereum/eth"
+	"github.com/vcvvvc/go-ethereum/eth/downloader"
+	"github.com/vcvvvc/go-ethereum/ethclient"
+	"github.com/vcvvvc/go-ethereum/ethstats"
+	"github.com/vcvvvc/go-ethereum/les"
+	"github.com/vcvvvc/go-ethereum/log"
+	"github.com/vcvvvc/go-ethereum/node"
+	"github.com/vcvvvc/go-ethereum/p2p"
+	"github.com/vcvvvc/go-ethereum/p2p/discv5"
+	"github.com/vcvvvc/go-ethereum/p2p/enode"
+	"github.com/vcvvvc/go-ethereum/p2p/nat"
+	"github.com/vcvvvc/go-ethereum/params"
 )
 
 var (
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/6923403/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/vcvvvc/go-ethereum/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

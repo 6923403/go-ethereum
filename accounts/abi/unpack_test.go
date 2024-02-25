@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/6923403/go-ethereum/common"
 	"github.com/stretchr/testify/require"
+	"github.com/vcvvvc/go-ethereum/common"
 )
 
 // TestUnpack tests the general pack/unpack tests in packing_test.go
